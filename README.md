@@ -16,7 +16,7 @@ npm init vite
 ```
    - Give your Project name as `client` click enter and select `React` and then select `JavaScript`.
    - You've created an app called `client`
-   - Check your path and install npm package manager inside client app.
+   - Run the following commands inside client app.
 ```cmd
 npm install  
 ```
