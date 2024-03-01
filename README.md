@@ -16,21 +16,26 @@ npm init vite
 ```
    - Give your Project name as `client` click enter and select `React` and then select `JavaScript`.
    - You've created an app called `client`
-   - Run the following commands inside client app.
+   - Run the following commands inside `client` app.
 ```cmd
 npm install  
 ```
 ```cmd
 npm install bootstrap axios react-router-dom
 ```
-   - Now if you execute the following command it'll provde a link where you can host your application.
+   - Now if you execute the following command inside client, it'll provide a link where you can host your application.
 ```cmd
 npm run dev
 ```
-   - In your `Login-Authentication` path, run the following command.
-```cmd
+   - Inside `Login-Authentication`, run the following command to install `package.json`.
+ ```cmd
 npm init -y
 ```
+   - In `package.json` check if the following code is present, if not make sure to add it above `scripts`
+```json
+"type": "module",
+```
+   >
 #### Back-End
 - Create a folder inside `Login-Authentication` with the name `server`
 - Inside `server` run the following commands.
@@ -53,6 +58,7 @@ npm start
 - Your environment has been successfully set up.
   
 2. Setting up MongoDB:
+   >
    - Install MongoDB: [Clickhere](https://www.mongodb.com/try/download/community)
    - Open MongoDB, Click on `Connect`.
    - Go to `Databases` and click on `Create Database`.
