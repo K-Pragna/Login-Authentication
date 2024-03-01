@@ -38,7 +38,7 @@ npm init -y
 npm init -y
 ```
 ```cmd
-npm install express mongoose cors nodemon
+npm install express mongoose cors nodemon bcrypt
 ```
 - Make sure to do these changes :
   > In `package.json` inside `server`, be sure add this in `"scripts":`
