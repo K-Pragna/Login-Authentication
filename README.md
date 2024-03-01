@@ -1,5 +1,9 @@
 ## Login-Authentication
-
+1. Description:
+   > A full-stack authentication application that will implement Login, Registration, and Logout functionalities.
+2. Technologies Used:
+   > HTML, CSS, JavaScript
+   > MERN (MongoDB, Express, React, Node.js)
 
 
 ## Demo-Video 
