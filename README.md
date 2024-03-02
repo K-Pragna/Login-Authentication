@@ -9,7 +9,7 @@
 1. Setting up Environment:
 #### Front-End
    - Create a folder of any name `Login-Authentication` and open it on VS Code.
-   - Check your path and run these commands to create an App using React in your folder.
+   - Check your path and run these commands in terminal to create an App using React in your folder.
      
 ```cmd
 npm init vite
